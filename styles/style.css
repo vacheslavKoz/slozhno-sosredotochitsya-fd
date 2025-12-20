@@ -167,7 +167,7 @@ display: inline-block;
 content: "";
 position: absolute;
 left:90.66%;
-top:25.94%;
+top:13.33%;
 
 }
 
@@ -283,10 +283,9 @@ height: 63.93%;
 
 .difficulty_concentrating {
   display: grid;
-  height: 138vh;
   grid-template-columns: minmax(355px, 748px);
-  grid-template-rows: 7.03vh 62.64vh 62.64vh;
-  grid-row-gap: 2.107%;
+  grid-template-rows: 7.03vh 64.52vh 64.52vh;
+  grid-row-gap: 2.99vh;
 
 }
 
@@ -295,7 +294,7 @@ height: 63.93%;
 margin-top: 7vh;
 display: grid;
 grid-template-columns: minmax(355px , 748px);
-grid-template-rows: 6.83vh 45.63vh 45.63vh 55.81vh;
+grid-template-rows: 7.03vh 47vh 47vh 57.48vh;
 grid-row-gap: 2.99vh;
 
 }
@@ -304,18 +303,18 @@ grid-row-gap: 2.99vh;
 
   display: grid;
   grid-template-columns: minmax(355px , 748px);
-  grid-template-rows: 10.17vh 69.04vh 35.46vh 55.81vb 35.46vh 31.97vh;
+  grid-template-rows: 10.47vh 71.107vh 36.52vh 57.48vh 36.52vh 32.93vh;
   grid-row-gap: 2.99vh;
-  margin-top: 7vh;
+  margin-top: 7.48vh;
 
 }
 
 .images {
   display: grid;
   grid-template-columns: minmax(355px , 748px);
-  grid-template-rows: 3.48vh 20.63vh 51.59vh 34.44vh 51.59vh 34.44vh;
-  grid-row-gap: 1.45vh;
-  margin-top: 7.26vh;
+  grid-template-rows: 3.59vh 21.25vh 53.143vh 35.47vh 53.143vh 35.47vh;
+  grid-row-gap: 1.49vh;
+  margin-top: 7.48vh;
 
 }
 
@@ -385,10 +384,10 @@ grid-row: 6;
 
 display: grid;
 grid-template-columns: minmax(355px , 748px);
-grid-template-rows: 40.11vh 13.95vh 40.11vh;
+grid-template-rows: 41.317vh 14.37vh 41.167vh;
 justify-content: center;
 align-items: center;
-margin-top: 5.813vh;
+margin-top: 5.98vh;
 margin-left: 2.66vw;
 margin-right:2.66vw;
 margin-bottom: 1.45vh;
