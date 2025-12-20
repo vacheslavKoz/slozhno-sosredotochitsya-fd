@@ -309,6 +309,12 @@ grid-row-gap: 2.99vh;
 
 }
 
+.big_header_third_section {
+
+margin-bottom: 2.99vh;
+
+}
+
 .images {
   display: grid;
   grid-template-columns: minmax(355px , 748px);
@@ -387,7 +393,7 @@ grid-template-columns: minmax(355px , 748px);
 grid-template-rows: 41.317vh 14.37vh 41.167vh;
 justify-content: center;
 align-items: center;
-margin-top: 5.98vh;
+margin-top: 7.48vh;
 margin-left: 2.66vw;
 margin-right:2.66vw;
 margin-bottom: 1.45vh;
