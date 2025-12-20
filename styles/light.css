@@ -8,6 +8,7 @@
     /* Дублируем только те же переменные, что и выше */
 --bg-image:url(../images/cover-image-light.png);
 --text-color: #353430;
+
 .visually-hidden {  
     position: absolute;  
     width: 1px;  
@@ -17,8 +18,10 @@
     overflow: hidden;  
     clip: rect(0, 0, 0, 0);  
     white-space: nowrap;  
-    border: 0;  
+    border: 0; 
+ 
 }  
+
 --coner-color: #353430;
 --button-color: #353430;
 --header-bg-color: #FF8DCB;
@@ -27,13 +30,16 @@
 --color-shadow-no-focus: #FF8DCB;
 --paragraph-title: #353430;
 --bg-paragraph-title: #FF8DCB;
+
   }
+
 .link:hover {
 
 border-bottom: 2px solid #353430;
 padding-bottom: 2px;
 
 }
+
 .link:focus-visible {
 
 outline:none;
@@ -50,7 +56,9 @@ border:1px solid var(--button-color);
   */
  --bg-image:url(../images/cover-image-light.png);
  --text-color: #353430;
+
 .visually-hidden {  
+
     position: absolute;  
     width: 1px;  
     height: 1px;  
@@ -60,7 +68,9 @@ border:1px solid var(--button-color);
     clip: rect(0, 0, 0, 0);  
     white-space: nowrap;  
     border: 0;  
+
 }  
+
 --button-color: #353430;
 --coner-color: #353430;
 --header-bg-color: #FF8DCB;
@@ -69,12 +79,14 @@ border:1px solid var(--button-color);
 --color-shadow-no-focus: #FF8DCB;
 --paragraph-title: #353430;
 --bg-paragraph-title: #FF8DCB;
+
 .link:hover {
 
 border-bottom: 2px solid #353430;
 padding-bottom: 2px;
 
 }
+
 .link:focus-visible {
 
 outline:none;

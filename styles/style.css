@@ -49,7 +49,7 @@ margin-block-end:0;
 
 }
 
-.card_header{
+.card_header {
 
 background-color: var(--header-bg-color);
 font-family: var(--font-family), sans-serif;
@@ -884,8 +884,8 @@ margin-top: 2.12%;
 margin-bottom: 0px;
 padding-top: 0.2%;
 padding-bottom: 0.2%;
-padding-left: 1.378%;
-padding-right: 1.378%;
+padding-left: 0.8%;
+padding-right: 0.8%;
 }
 
 .header__theme-menu-list {
