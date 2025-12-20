@@ -1005,6 +1005,14 @@ text-shadow: 4px 4px 0px  var(--color-shadow-no-focus);
 
 }
 
+main {
+
+  padding-left: 1.95%;
+  padding-right:  1.95%;
+  max-width: 100%;
+
+}
+
 .difficulty_concentrating {
 
 display: grid;
