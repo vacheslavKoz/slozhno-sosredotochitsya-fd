@@ -612,7 +612,7 @@ grid-template-rows: 30.66vh 30.66vh;
 height: 63.28vh;
 grid-row-gap: var(--tab-row-gap);
 grid-column-gap: var(--tab-column-gap);
-margin-top: 7.81vh;
+margin-top: 5.85vh;
 
 }
 
@@ -657,7 +657,7 @@ margin-inline-start: 0px;
 display: grid;
 grid-template-rows: 6.83vh 16.99vh 16.99vh 19.23vh ;
 grid-row-gap: var(--tab-row-gap);
-margin-top: 10.41vh;
+margin-top: 7.81vh;
 width: 94.79vw;
 
 }
@@ -675,7 +675,7 @@ display: grid;
 grid-template-columns: 33.33vw 61.45vw;
 grid-template-rows: 34.86vh 19.33vh 28.32vh 19.23vh 17.08vh;
 grid-row-gap: var(--tab-row-gap);
-margin-top: 10.41vh;
+margin-top: 7.81vh;
 
 }
 
@@ -727,7 +727,7 @@ grid-template-columns: 29.81vw 29.94vw 29.81vw;
 grid-template-rows: 2.24vh 18.74vh  22.46vh 31.05vh;
 grid-row-gap: var(--tab-row-gap);
 grid-column-gap: var(--tab-column-gap);
-margin-top: 10.41vh;
+margin-top: 7.81vh;
 
 }
 
