@@ -1014,7 +1014,7 @@ grid-column-gap:  var(--pc-column-gap);
 grid-row-gap: var(--pc-row-gap);
 width: 96.09vw;
 height: 66.14vh;
-margin-top: 5.85vh;
+margin-top: 7.81vh;
 
 
 }
@@ -1035,7 +1035,7 @@ margin-top: 5.85vh;
 
 .dofamine {
 
-  margin-block-end: 0px;
+  margin-block-end: 1.54%;
 
 }
 
@@ -1054,7 +1054,7 @@ grid-template-columns: 30.76vw 30.75vw 30.75vw;
 grid-column-gap: var(--pc-column-gap);
 grid-row-gap: var(--pc-row-gap);
 width: 96.09vw;
-margin-top: 7.81vh;
+margin-top: 10.416vh;
 
 }
 
@@ -1151,7 +1151,7 @@ grid-template-columns: 30.76vw 30.76vw 30.76vw;
 grid-template-rows: 2.99vh  33.85vh 41.01vh 56.38vh;
 grid-column-gap: var(--pc-column-gap);
 grid-row-gap: var(--pc-row-gap);
-margin-top: 7.81vh;
+margin-top: 10.416vh;
 
 }
 
