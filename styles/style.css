@@ -331,7 +331,7 @@ font-weight: bold;
 font-size: 18px;
 line-height: 23.4px;
 letter-spacing: 0;
-background-color: #FF0070 ;
+background-color: var(--bg-paragraph-title);
 margin-block-end: 0px;
 margin-block-start: 0px;
 color:  var(--paragraph-title);
@@ -432,7 +432,7 @@ display: flex;
 position: relative;
 grid-column: 1;
 grid-row: 3;
-height: 40.11vh;
+height: 41.167vh;
 
 }
 
