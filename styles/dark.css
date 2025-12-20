@@ -4,9 +4,60 @@
   переключая тему
 */
 
+
+@media (prefers-color-scheme: dark) {
+
+:root {
+--bg-image:url(../images/cover-image-dark.png);
+--text-color: white;
+--coner-color: #FF0070;
+--button-color: #FF0070;
+--header-bg-color: #FF0070;
+--section-header-color: #FF0070;
+--no-focus-color:  #DB00FF;
+--color-shadow-no-focus: #FF0070;
+--paragraph-title: #000028;
+--bg-paragraph-title: #FF0070;
+.link:hover {
+
+border-bottom: 2px solid #FF0070;
+padding-bottom: 2px;
+
+}
+.link:focus-visible {
+
+outline:none;
+border:1px solid var(--button-color);
+
+}
+}
+}
 :root.theme-dark {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+--bg-image:url(../images/cover-image-dark.png);
+--text-color: white;
+--coner-color: #FF0070;
+--button-color: #FF0070;
+--header-bg-color: #FF0070;
+--section-header-color: #FF0070;
+--no-focus-color:  #DB00FF;
+--color-shadow-no-focus: #FF0070;
+--paragraph-title: #000028;
+--bg-paragraph-title: #FF0070;
+.link:hover {
+
+border-bottom: 2px solid #FF0070;
+padding-bottom: 2px;
+
+}
+
+.link:focus-visible {
+
+outline:none;
+border:1px solid var(--button-color);
+
+}
 }

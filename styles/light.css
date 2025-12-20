@@ -3,10 +3,83 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
+@media (prefers-color-scheme: light) {
+  :root {
+    /* Дублируем только те же переменные, что и выше */
+--bg-image:url(../images/cover-image-light.png);
+--text-color: #353430;
+.visually-hidden {  
+    position: absolute;  
+    width: 1px;  
+    height: 1px;  
+    padding: 0;  
+    margin: -1px;  
+    overflow: hidden;  
+    clip: rect(0, 0, 0, 0);  
+    white-space: nowrap;  
+    border: 0;  
+}  
+--coner-color: #353430;
+--button-color: #353430;
+--header-bg-color: #FF8DCB;
+--section-header-color: #353430;
+--no-focus-color:  #FFC2E6;
+--color-shadow-no-focus: #FF8DCB;
+--paragraph-title: #353430;
+--bg-paragraph-title: #FF8DCB;
+  }
+.link:hover {
+
+border-bottom: 2px solid #353430;
+padding-bottom: 2px;
+
+}
+.link:focus-visible {
+
+outline:none;
+border:1px solid var(--button-color);
+
+}
+}
+
 
 :root.theme-light {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+ --bg-image:url(../images/cover-image-light.png);
+ --text-color: #353430;
+.visually-hidden {  
+    position: absolute;  
+    width: 1px;  
+    height: 1px;  
+    padding: 0;  
+    margin: -1px;  
+    overflow: hidden;  
+    clip: rect(0, 0, 0, 0);  
+    white-space: nowrap;  
+    border: 0;  
+}  
+--button-color: #353430;
+--coner-color: #353430;
+--header-bg-color: #FF8DCB;
+--section-header-color: #353430;
+--no-focus-color:  #FFC2E6;
+--color-shadow-no-focus: #FF8DCB;
+--paragraph-title: #353430;
+--bg-paragraph-title: #FF8DCB;
+.link:hover {
+
+border-bottom: 2px solid #353430;
+padding-bottom: 2px;
+
+}
+.link:focus-visible {
+
+outline:none;
+border:1px solid var(--button-color);
+
+}
+
 }
