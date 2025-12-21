@@ -389,14 +389,11 @@ grid-row: 6;
 .footer {
 
 display: grid;
-grid-template-columns: minmax(355px , 748px);
-grid-template-rows: 41.317vh 14.37vh 41.167vh;
+grid-template-columns: minmax(375px , 748px);
+grid-template-rows: 42.814vh 14.37vh 42.66vh;
 justify-content: center;
 align-items: center;
-margin-top: 7.48vh;
-margin-left: 2.66vw;
-margin-right:2.66vw;
-margin-bottom: 1.45vh;
+margin-top: 5.98vh;
 
 }
 
@@ -406,7 +403,7 @@ display:flex;
 position: relative;
 grid-column:1;
 grid-row:1;
-height:40.11vh;
+height: 42.814vh;
 
 }
 
@@ -414,8 +411,8 @@ height:40.11vh;
 
 content: "";
 position: absolute;
-left: 92.95%;
-top: 0px;
+left: 90.66%;
+top: 3.49%;
 
 }
 
@@ -432,15 +429,15 @@ display: flex;
 position: relative;
 grid-column: 1;
 grid-row: 3;
-height: 41.167vh;
+height: 42.66vh;
 
 }
 
 .footer_three_section::before {
 content: "";
 position: absolute;
-left: 0px;
-bottom: 0px;
+left: 2.66%;
+bottom: 3.49%;
 
 }
 
@@ -799,14 +796,13 @@ grid-row: 4;
 .footer {
 
 display: grid;
-grid-template-columns: minmax(728px , 984px);
-grid-template-rows: 43.26vh 9.667vh 43.16vh;
+grid-template-columns: minmax(768px , 1024px);
+grid-template-rows: 45.21vh 9.667vh 45.117vh;
 justify-content: center;
 align-items: center;
-margin-top: 7.81vh;
-margin-left: 2.604vw;
-margin-right: 2.604vw;
-margin-bottom: 2.604vh;
+margin-top: 5.85vh;
+
+
 
 }
 
@@ -816,7 +812,7 @@ display: flex;
 position: relative;
 grid-column: 1;
 grid-row: 1;
-height: 43.26vh;
+height: 45.21vh;
 
 }
 
@@ -824,8 +820,8 @@ height: 43.26vh;
 
 content: "";
 position: absolute;
-left: 96.56%;
-top: 0px;
+left: 94.140%;
+top: 4.319%;
 
 }
 
@@ -845,15 +841,15 @@ display:flex;
 position: relative;
 grid-column:1;
 grid-row: 3;
-height: 43.26vh;
+height: 45.117vh;
 
 }
 
 .footer_three_section::before {
 content: "";
 position: absolute;
-left: 0px;
-bottom: 0px;
+left: 2.604%;
+bottom: 4.319%;
 
 }
 
@@ -1232,14 +1228,13 @@ margin-block-end: 0px;
 .footer {
 
  display: grid;
- grid-template-columns: minmax(984px,1400px);
- grid-template-rows: 38.93vh 16.92vh 38.93vh;
+ grid-template-columns: minmax(1024px,1400px);
+ grid-template-rows: 41.53vh 16.92vh 41.53vh;
  justify-content: center;
  align-items: center;
- margin-top: 10.41vh;
- margin-left: 1.95vw;
- margin-right:1.95vw;
- margin-bottom: 1.95vh;
+ margin-top: 7.81vh;
+ 
+
 
 }
 
@@ -1249,7 +1244,7 @@ display: flex;
 position: relative;
 grid-column: 1;
 grid-row: 1;
-height: 38.93vh;
+height: 41.53vh;
 
 }
 
@@ -1257,8 +1252,8 @@ height: 38.93vh;
 
 content: "";
 position: absolute;
-left: 97.45%;
-top: 0px;
+left: 95.605%;
+top: 6.26%;
 
 }
 
@@ -1278,7 +1273,7 @@ display: flex;
 position: relative;
 grid-column: 1;
 grid-row: 3;
-height: 38.93vh;
+height: 41.53vh;
 
 }
 
@@ -1286,8 +1281,8 @@ height: 38.93vh;
 
 content: "";
 position: absolute;
-left: 0px;
-bottom: 0px;
+left: 1.95%;
+bottom: 6.26%;
 
 }
 }
