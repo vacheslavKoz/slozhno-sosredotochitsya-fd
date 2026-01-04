@@ -144,10 +144,7 @@ header {
   padding-left: 10px;
   font-family: var(--font-family), monospace;
   font-weight: var(--title-font-weight);
-  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  /*
-font-size: clamp(116px, 6.32vw + 92.31px, 157px);
-*/
+  font-size: clamp(116px, 6.32vw + 92.31px, 157px);
   line-height: 83%;
   letter-spacing: 0;
   color: var(--no-focus-color);
@@ -259,7 +256,7 @@ main {
   border: 1px solid var(--text-color);
 }
 
-.images {
+.section_images {
   display: grid;
   gap: 10px;
 }
@@ -295,10 +292,7 @@ main {
 }
 
 @media (768px <= width) {
-  .no_focus {
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  }
-
+  
   .section_explain {
     grid-template-columns: minmax(236px, auto) minmax(472px, auto);
   }
