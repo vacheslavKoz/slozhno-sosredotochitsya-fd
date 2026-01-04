@@ -6,9 +6,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
- /*
   background-attachment: fixed;
-*/
 }
 
 header {
@@ -149,7 +147,7 @@ header {
   /*
   font-size: clamp(116px, 6.32vw + 92.31px, 157px);
   */
-  font-size: clamp(60px, 6.32vw + 92.31px, 157px);
+  font-size: clamp(10px, 6.32vw + 92.31px, 40px);
   line-height: 83%;
   letter-spacing: 0;
   color: var(--no-focus-color);
@@ -172,7 +170,10 @@ header {
 .title {
   font-family: var(--font-family), monospace;
   font-weight: var(--title-font-weight);
+  /*
   font-size: var(--text-size);
+  */
+  font-size: 4px;
   line-height: 130%;
   letter-spacing: 0;
 }
@@ -292,7 +293,10 @@ main {
 .focus {
   font-family: var(--font-family), monospace;
   font-weight: var(--title-font-weight);
+  /*
   font-size: clamp(116px, 6.32vw + 92.31px, 157px);
+  */
+  font-size: clamp(20px, 6.32vw + 92.31px, 40px);
   line-height: 83%;
   letter-spacing: 0;
   color: var(--no-focus-color);
