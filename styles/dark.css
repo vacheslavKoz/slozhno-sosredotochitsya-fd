@@ -4,6 +4,7 @@
   переключая тему
 */
 @media (prefers-color-scheme: dark) { 
+
 :root {
 --bg-image: url("../images/cover-image-dark.png"); 
 --font-family: "IBM Plex Mono";
@@ -20,6 +21,7 @@
 --paragraph-title: #000028; 
 --bg-paragraph-title: #FF0070; 
 --link-shadow: 2px 2px 1px #FF0070;
+
 }
 }
 
