@@ -6,7 +6,9 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+ /*
   background-attachment: fixed;
+*/
 }
 
 header {
@@ -159,8 +161,9 @@ header {
   padding-left: clamp(10px, 10px + (100vw - 375px) * (374 / 393), 384px);
   padding-right: clamp(10px, 10px + (100vw - 375px) * (10 / 393), 20px);
   padding-top: clamp(55px, 55px + (100vh - 668px) * (107 / 356), 162px);
+  /*
   padding-bottom: clamp(66px, 66px + (100vh - 668px) * (117 / 356), 183px);
- 
+ */
 }
 
 .title {
