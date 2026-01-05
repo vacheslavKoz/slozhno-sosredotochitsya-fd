@@ -3,8 +3,10 @@
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
+@media (prefers-color-scheme: dark) {
+/*
 @media (prefers-color-scheme: dark) { 
-
+*/
 :root {
 --bg-image: url("../images/cover-image-dark.png"); 
 --font-family: "IBM Plex Mono";
