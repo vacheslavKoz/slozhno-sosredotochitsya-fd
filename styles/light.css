@@ -20,6 +20,7 @@
 --color-shadow-focus: #FF0070;
 --paragraph-title: #353430; 
 --bg-paragraph-title: #FF8DCB; 
+--title-decor-text-color: #353430;
 --link-shadow: 2px 2px 1px #FF8DCB;
 --visual-hidden: hidden;
 }
@@ -46,5 +47,6 @@
 --paragraph-title: #353430; 
 --bg-paragraph-title: #FF8DCB; 
 --link-shadow: 2px 2px 1px #FF8DCB;
+--title-decor-text-color: #353430;
 --visual-hidden: hidden;
 }

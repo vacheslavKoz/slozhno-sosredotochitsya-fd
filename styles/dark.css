@@ -22,7 +22,8 @@
 --paragraph-title: #000028; 
 --bg-paragraph-title: #FF0070; 
 --link-shadow: 2px 2px 1px #FF0070;
-
+--title-decor-text-color: #000028;
+--visual-hidden: visible;
 }
 }
 
@@ -47,5 +48,6 @@
 --paragraph-title: #000028; 
 --bg-paragraph-title: #FF0070; 
 --link-shadow: 2px 2px 1px #FF0070;
-
+--title-decor-text-color: #000028;
+--visual-hidden: visible;
 }
