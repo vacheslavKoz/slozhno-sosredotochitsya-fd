@@ -298,17 +298,14 @@ main {
 @media (768px <= width) {
   
   .section_explain {
-  /*
-   grid-template-columns: minmax(236px, auto) auto;
-  */
    grid-template-columns: 32.417% 64.83%;
   }
   
-  /*
+  
   .section_header {
-    width: 236px;
+    width: 32.417%;
   }
-  */
+ 
 
   .section_header_explain {
     grid-row: 1;
@@ -326,7 +323,7 @@ main {
   }
 
   .section_advice {
-    grid-template-columns: minmax(236px, auto) auto;
+    grid-template-columns: 32.417% 64.83%;
   }
 
   .card_type_advice:nth-of-type(n + 1) {
@@ -430,11 +427,14 @@ main {
     gap: 80px;
   }
 
-  /*
+ 
   .section_header {
-    width: 314px;
+    width: 32.012%;
   }
-  */
+ 
+  .section_explain {
+    grid-template-columns: 32.012% 65.955%;
+  }
 
   .section_decline {
     grid-template-columns:
@@ -443,9 +443,7 @@ main {
       minmax(315px, auto)
       minmax(315px, auto);
       */
-      minmax(min(auto,315px), auto)
-      minmax(min(auto,315px), auto)
-      minmax(min(auto,315px), auto);
+      32.012% 32.012% 32.012%;
       
     grid-template-rows: min-content auto;
   }
@@ -454,9 +452,15 @@ main {
     grid-row: 1;
   }
 
+  .section_advice {
+    grid-template-columns: 32.012% 65.955%;
+  }
+
+ 
   .card_type_decline {
     align-self: start;
     grid-row: 2;
   }
 }
+
 
