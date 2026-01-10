@@ -304,10 +304,11 @@ main {
 }
 
 @media (768px <= width) {
+  /*
   .no_focus {
     padding-left: 0px;
   }
-
+  */
   .section_explain {
     grid-template-columns: 32.417% 64.83%;
   }
