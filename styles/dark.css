@@ -4,25 +4,24 @@
   переключая тему
 */
 
-@media (prefers-color-scheme: dark) { 
-
-:root {
---bg-image: url("../images/cover-image-dark.png"); 
---text-color: #F1B2CE; 
---accent-bg-color: #FF0070; 
---corner-color: #FF0070; 
---button-color: #FF0070; 
---header-bg-color: #FF0070; 
---section-header-color: #FF0070; 
---no-focus-color: #DB00FF; 
---color-shadow-no-focus: #FF0070; 
---paragraph-title: #000028; 
---bg-paragraph-title: #FF0070; 
---link-shadow: 2px 2px 1px #FF0070;
---title-decor-text-color: #000028;
---visual-hidden: visible;
---semi-transparent-frame: #FF007066;
-}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-image: url("../images/cover-image-dark.png");
+    --text-color: #f1b2ce;
+    --accent-bg-color: #ff0070;
+    --corner-color: #ff0070;
+    --button-color: #ff0070;
+    --header-bg-color: #ff0070;
+    --section-header-color: #ff0070;
+    --no-focus-color: #db00ff;
+    --color-shadow-no-focus: #ff0070;
+    --paragraph-title: #000028;
+    --bg-paragraph-title: #ff0070;
+    --link-shadow: 2px 2px 1px #ff0070;
+    --title-decor-text-color: #000028;
+    --visual-hidden: visible;
+    --semi-transparent-frame: #ff007066;
+  }
 }
 
 :root.theme-dark {
@@ -31,19 +30,19 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 
---bg-image: url("../images/cover-image-dark.png"); 
---text-color: #F1B2CE; 
---accent-bg-color: #FF0070; 
---corner-color: #FF0070; 
---button-color: #FF0070; 
---header-bg-color: #FF0070; 
---section-header-color: #FF0070; 
---no-focus-color: #DB00FF; 
---color-shadow-no-focus: #FF0070; 
---paragraph-title: #000028; 
---bg-paragraph-title: #FF0070; 
---link-shadow: 2px 2px 1px #FF0070;
---title-decor-text-color: #000028;
---visual-hidden: visible;
---semi-transparent-frame: #FF007066;
+  --bg-image: url("../images/cover-image-dark.png");
+  --text-color: #f1b2ce;
+  --accent-bg-color: #ff0070;
+  --corner-color: #ff0070;
+  --button-color: #ff0070;
+  --header-bg-color: #ff0070;
+  --section-header-color: #ff0070;
+  --no-focus-color: #db00ff;
+  --color-shadow-no-focus: #ff0070;
+  --paragraph-title: #000028;
+  --bg-paragraph-title: #ff0070;
+  --link-shadow: 2px 2px 1px #ff0070;
+  --title-decor-text-color: #000028;
+  --visual-hidden: visible;
+  --semi-transparent-frame: #ff007066;
 }
