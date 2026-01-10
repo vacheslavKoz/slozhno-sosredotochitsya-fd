@@ -7,8 +7,6 @@
 
 :root {
 --bg-image: url("../images/cover-image-light.png"); 
---font-family: "IBM Plex Mono";
---text-size: 18px;
 --text-color: #353430; 
 --accent-bg-color: #FF8DCB; 
 --corner-color: #353430; 
@@ -17,7 +15,6 @@
 --section-header-color: #353430; 
 --no-focus-color: #FFC2E6; 
 --color-shadow-no-focus: #FF8DCB; 
---color-shadow-focus: #FF0070;
 --paragraph-title: #353430; 
 --bg-paragraph-title: #FF8DCB; 
 --title-decor-text-color: #353430;
@@ -34,8 +31,6 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 --bg-image: url("../images/cover-image-light.png"); 
---font-family: "IBM Plex Mono";
---text-size: 18px;
 --text-color: #353430; 
 --accent-bg-color: #FF8DCB; 
 --corner-color: #353430; 
@@ -44,11 +39,10 @@
 --section-header-color: #353430; 
 --no-focus-color: #FFC2E6; 
 --color-shadow-no-focus: #FF8DCB; 
---color-shadow-focus: #FF0070;
 --paragraph-title: #353430; 
 --bg-paragraph-title: #FF8DCB; 
---link-shadow: 2px 2px 1px #FF8DCB;
 --title-decor-text-color: #353430;
+--link-shadow: 2px 2px 1px #FF8DCB;
 --visual-hidden: hidden;
 --semi-transparent-frame: #32312D66;
 }

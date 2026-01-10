@@ -8,8 +8,6 @@
 
 :root {
 --bg-image: url("../images/cover-image-dark.png"); 
---font-family: "IBM Plex Mono";
---text-size: 18px;
 --text-color: #F1B2CE; 
 --accent-bg-color: #FF0070; 
 --corner-color: #FF0070; 
@@ -18,7 +16,6 @@
 --section-header-color: #FF0070; 
 --no-focus-color: #DB00FF; 
 --color-shadow-no-focus: #FF0070; 
---color-shadow-focus: #FF0070;
 --paragraph-title: #000028; 
 --bg-paragraph-title: #FF0070; 
 --link-shadow: 2px 2px 1px #FF0070;
@@ -35,8 +32,6 @@
   */
 
 --bg-image: url("../images/cover-image-dark.png"); 
---font-family: "IBM Plex Mono";
---text-size: 18px;
 --text-color: #F1B2CE; 
 --accent-bg-color: #FF0070; 
 --corner-color: #FF0070; 
@@ -45,7 +40,6 @@
 --section-header-color: #FF0070; 
 --no-focus-color: #DB00FF; 
 --color-shadow-no-focus: #FF0070; 
---color-shadow-focus: #FF0070;
 --paragraph-title: #000028; 
 --bg-paragraph-title: #FF0070; 
 --link-shadow: 2px 2px 1px #FF0070;
