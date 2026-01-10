@@ -306,7 +306,7 @@ main {
 @media (768px <= width) {
   
   .no_focus {
-    padding-left: 5px;
+    padding-left: 7px;
   }
   
   .section_explain {
