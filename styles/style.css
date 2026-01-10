@@ -182,7 +182,13 @@ main {
   flex-direction: column;
   width: 100%;
   max-width: 100%;
+  /*
   gap: clamp(50px, 8.427vh - 6.292px, 80px);
+  */
+  /*
+  padding-bottom: clamp(50px, calc(50px + (100vh - 668px) * 0.0842696629), 80px);
+  */
+  padding-bottom: clamp(48px, calc(48px + (100vh - 668px) * 0.09), 80px);
   padding-left: clamp(10px, 2.54vw + 0.46px, 20px);
   padding-right: clamp(10px, 2.5445vw + 0.458px, 20px);
 }
