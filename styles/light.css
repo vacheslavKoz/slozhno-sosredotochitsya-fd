@@ -23,6 +23,7 @@
 --title-decor-text-color: #353430;
 --link-shadow: 2px 2px 1px #FF8DCB;
 --visual-hidden: hidden;
+--semi-transparent-frame: #32312D66;
 }
 
 }
@@ -49,4 +50,5 @@
 --link-shadow: 2px 2px 1px #FF8DCB;
 --title-decor-text-color: #353430;
 --visual-hidden: hidden;
+--semi-transparent-frame: #32312D66;
 }
