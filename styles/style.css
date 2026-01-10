@@ -163,7 +163,10 @@ border: 1px solid var(--button-color);
   align-items: center;
   padding-left: calc(95.1653% - 346.87px);
   padding-right: calc(1000% / 393 + 60px / 131);
+  /*
   padding-bottom: clamp(10px, calc(10px + (100vh - 668px) * 0.02809), 20px);
+  */
+  padding-bottom: clamp(14px, calc(14px + (100vh - 668px) * 0.03933), 20px);
 }
 
 .title {
@@ -218,7 +221,7 @@ main {
   letter-spacing: 0;
 }
 
-.card_type_advice h3 {
+.section_advice .card h3 {
   margin-block-end: 10px;
 }
 
