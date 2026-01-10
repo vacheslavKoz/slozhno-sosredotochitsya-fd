@@ -153,7 +153,7 @@ header {
   padding-left: 10px;
   font-family: var(--font-family), monospace;
   font-weight: var(--title-font-weight);
-  font-size: clamp(120px, calc(14.45vw + 9px), 157px);
+  font-size: clamp(116px, calc(16.016vw - 7px), 157px);
   line-height: 83%;
   letter-spacing: 0;
   color: var(--no-focus-color);
