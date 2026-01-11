@@ -410,6 +410,10 @@ main {
     padding-top: 20px;
     padding-right: 30px;
   }
+   
+  .no_focus {
+   padding-left: 5px;
+   }
 
   .decorated-zone::after {
     top: 20px;
