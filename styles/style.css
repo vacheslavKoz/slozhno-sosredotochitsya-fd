@@ -422,14 +422,14 @@ main {
   }
 
    .no_focus {
-    font-size: clamp(124px, calc(124px + ((100vw - 17px) - 768px) * 0.14453),157px);
+    font-size: clamp(130px, calc(130px + ((100vw - 17px) - 768px) * 0.14453),157px);
     padding-left: 0px;
     grid-row: 2;
     grid-column: 1;
    }
 
   .focus {
-    font-size: clamp(124px,calc(124px + ((100vw - 17px) - 768px) * 0.14453),157px);
+    font-size: clamp(130px,calc(130px + ((100vw - 17px) - 768px) * 0.14453),157px);
   }
  
   .header_title_wrap {
