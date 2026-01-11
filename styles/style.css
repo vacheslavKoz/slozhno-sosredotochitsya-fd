@@ -197,6 +197,12 @@ main {
   gap: 20px;
 }
 
+.card_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 19px;
+}
+
 .section_header {
   font-family: var(--font-family);
   font-weight: var(--title-font-weight);
@@ -470,10 +476,21 @@ main {
   }
 
   .section_decline {
+    /*
     grid-template-columns: 32.012% 32.012% 32.012%;
+    */
     grid-template-rows: min-content auto;
+    column-gap: 0px;
+    row-gap: 19px;
   }
 
+  .section_decline .card_container {
+    grid-row: 2;
+  }
+
+  .card_container .card {
+    width: 32.012%;
+  }
   .section_header_decline {
     grid-row: 1;
     grid-column: 1/4;
