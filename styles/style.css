@@ -153,10 +153,11 @@ header {
   padding-left: 10px;
   font-family: var(--font-family), monospace;
   font-weight: var(--title-font-weight);
-  /*
-  font-size: clamp(116px, calc(16.016vw - 7px), 157px);
-  */
-  font-size: clamp(116px, calc(116px + ((100vw - 17px) - 375px) * 0.01018),120px);
+  font-size: clamp(
+    116px,
+    calc(116px + ((100vw - 17px) - 375px) * 0.01018),
+    120px
+  );
   line-height: 83%;
   letter-spacing: 0;
   color: var(--no-focus-color);
@@ -299,10 +300,11 @@ main {
 .focus {
   font-family: var(--font-family), monospace;
   font-weight: var(--title-font-weight);
-  /*
-  font-size: clamp(120px, calc(14.45vw + 9px), 157px);
-  */
-  font-size: clamp(116px, calc(116px + ((100vw - 17px) - 375px) * 0.01018),120px);
+  font-size: clamp(
+    116px,
+    calc(116px + ((100vw - 17px) - 375px) * 0.01018),
+    120px
+  );
   line-height: 83%;
   letter-spacing: 0;
   color: var(--no-focus-color);
@@ -311,12 +313,20 @@ main {
 
 @media (768px <= width) {
   .no_focus {
-    font-size: clamp(120px, calc(120px + ((100vw - 17px) - 768px) * 0.14453),157px);
+    font-size: clamp(
+      120px,
+      calc(120px + ((100vw - 17px) - 768px) * 0.14453),
+      157px
+    );
     padding-left: 0px;
-   }
+  }
 
   .focus {
-    font-size: clamp(120px,calc(120px + ((100vw - 17px) - 768px) * 0.14453),157px);
+    font-size: clamp(
+      120px,
+      calc(120px + ((100vw - 17px) - 768px) * 0.14453),
+      157px
+    );
   }
 
   .section_explain {
@@ -410,8 +420,6 @@ main {
     padding-top: 20px;
     padding-right: 30px;
   }
-   
- 
 
   .decorated-zone::after {
     top: 20px;
@@ -421,17 +429,25 @@ main {
     bottom: 20px;
   }
 
-   .no_focus {
-    font-size: clamp(130px, calc(130px + ((100vw - 17px) - 768px) * 0.14453),157px);
+  .no_focus {
+    font-size: clamp(
+      130px,
+      calc(130px + ((100vw - 17px) - 768px) * 0.14453),
+      157px
+    );
     padding-left: 0px;
     grid-row: 2;
     grid-column: 1;
-   }
+  }
 
   .focus {
-    font-size: clamp(130px,calc(130px + ((100vw - 17px) - 768px) * 0.14453),157px);
+    font-size: clamp(
+      130px,
+      calc(130px + ((100vw - 17px) - 768px) * 0.14453),
+      157px
+    );
   }
- 
+
   .header_title_wrap {
     grid-row: 3;
     grid-column: 1/3;
