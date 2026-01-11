@@ -312,7 +312,9 @@ main {
 @media (768px <= width) {
   .no_focus {
     font-size: clamp(120px, calc(120px + ((100vw - 17px) - 768px) * 0.14453),157px);
+    /*
     padding-left: 0px;
+    */
    }
 
   .focus {
@@ -411,9 +413,7 @@ main {
     padding-right: 30px;
   }
    
-  .no_focus {
-   padding-left: 5px;
-   }
+ 
 
   .decorated-zone::after {
     top: 20px;
